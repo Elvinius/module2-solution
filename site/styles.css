@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+ section {
+  
+   float: left;
+   margin: 15px 10px;
+   width:100%;
+  
+}
+h2 {
+ 
+  position: relative;
+  left: 150px;
+  font-size: 1.25rem;
+ 
+  
+  
+  
+}
+
+@media (min-width: 992px) {
+  section {
+  width: 30%;
+   
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .first, .second {
+    width: 45%;
+    
+    
+  }
+  
+  
+  .third {
+    width: 100%;
+    clear: both;
+    margin-right: 10px;
+  }
+}
+
